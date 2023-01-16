@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1027751246350425010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3375263160525713475}
+  - component: {fileID: 4520781208066389472}
+  - component: {fileID: 7670321966657931989}
+  m_Layer: 0
+  m_Name: Selected
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3375263160525713475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027751246350425010}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.165, y: 0.049999997, z: 0.065}
+  m_Children: []
+  m_Father: {fileID: 563636969612692393}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4520781208066389472
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027751246350425010}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7670321966657931989
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027751246350425010}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fa9e5af57e683a54c8898e56e5123ae2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1401847625217783564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563636969612692393}
+  - component: {fileID: 6712871880073922838}
+  - component: {fileID: 402214049044325752}
+  m_Layer: 0
+  m_Name: Nepomuk_500K
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563636969612692393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401847625217783564}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3813697646425509740}
+  - {fileID: 3375263160525713475}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &6712871880073922838
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401847625217783564}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.55, y: 1.8, z: 0.7}
+  m_Center: {x: 0, y: 0.85, z: 0}
+--- !u!114 &402214049044325752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401847625217783564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9c20df6134f0940b91c6d60ec1e364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: {fileID: 0}
+  objectInfo: {fileID: 0}
+  myName: Nepomuk 500K
+  myInfo: "Od roku 1369 p\xF4sobil ako verejn\xFD not\xE1r v Prahe a od roku 1380
+    bol u sv. V\xEDta olt\xE1rnikom. Medzi rokmi 1383 a 1387 \u0161tudoval cirkevn\xE9
+    pr\xE1vo v Padove. Po n\xE1vrate sa st\xE1va kanonikom u sv. Jilj\xED a doktorom
+    dekr\xE9tov. O dva roky nesk\xF4r je u\u017E kanonikom vy\u0161ehradskej kapituly
+    a gener\xE1lnym vik\xE1rom pra\u017Esk\xE9ho arcibiskupa vo veciach duchovn\xFDch.
+    Nasleduj\xFAceho roku men\xED J\xE1n svoju farnos\u0165 u sv. Havla za \xFArad
+    \u017Eateck\xE9ho arcidiakona. D\u0148a 20. marca 1393 J\xE1n umiera po\u010Das
+    mu\u010Denia (v dne\u0161nom dome \u010D. 12 na rohu ul\xEDc Ryt\xED\u0159sk\xE1
+    a Na M\u016Fstku), pravdepodobne okolo pol deviatej, jeho telo je zhoden\xE9
+    z dne\u0161n\xE9ho Karlovho mosta do Vltavy. 17. apr\xEDla nach\xE1dzaj\xFA J\xE1novo
+    telo zachyten\xE9 na pravom brehu Vltavy (v mieste dne\u0161n\xE9ho \u010Cechovho
+    mosta) cyriaci, ktor\xED ho pochov\xE1vaj\xFA v kostole sv. Kr\xED\u017Ea pri
+    svojom kl\xE1\u0161tore."
+--- !u!1001 &8260437520734969997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 563636969612692393}
+    m_Modifications:
+    - target: {fileID: 2170518128046583906, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_Name
+      value: Hl_Nepomuk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 821cfbf50d73bff418abaf2b826d9af8, type: 3}
+--- !u!4 &3813697646425509740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5065988715631407073, guid: 821cfbf50d73bff418abaf2b826d9af8,
+    type: 3}
+  m_PrefabInstance: {fileID: 8260437520734969997}
+  m_PrefabAsset: {fileID: 0}

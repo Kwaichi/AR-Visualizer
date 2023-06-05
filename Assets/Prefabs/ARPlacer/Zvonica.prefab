@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6899718847221993145}
   m_RootOrder: 0
@@ -51,10 +52,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6804405425850437016
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +111,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5166761719725491393}
   - {fileID: 211274084695806499}
@@ -146,9 +151,7 @@ MonoBehaviour:
     domom. Zakladatelia m\xFAzea, s\xFArodenci Jaro\u0148kovci, ju nechali postavi\u0165
     pod\u013Ea p\xF4vodnej predlohy z Dolnej Be\u010Dvy. Navy\u0161e ju vybavili
     origin\xE1lnym zvonom z roku 1783. V minulosti zvuk tohto zvona oznamoval pod\u013Ea
-    trad\xEDcie za\u010Diatok a koniec pr\xE1ce robotn\xEDkov na hamroch. V s\xFA\u010Dasnosti
-    zvonica dopl\u0148uje expoz\xEDciu, ktor\xE1 je venovan\xE1 spracovaniu \u017Eeleza
-    v Beskyd\xE1ch"
+    trad\xEDcie za\u010Diatok a koniec pr\xE1ce robotn\xEDkov na hamroch."
 --- !u!1001 &388472663858181576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -156,6 +159,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6899718847221993145}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -170,6 +193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.126
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9976833
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
         type: 3}
@@ -188,16 +216,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9976833
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -211,21 +229,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
+    - target: {fileID: -7635826562936255635, guid: f038173b62023eb42837a51c36757467,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f038173b62023eb42837a51c36757467,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d0e4eeaac0d7db2428389967eeef9a5c, type: 2}
     - target: {fileID: 919132149155446097, guid: f038173b62023eb42837a51c36757467,
         type: 3}
       propertyPath: m_Name

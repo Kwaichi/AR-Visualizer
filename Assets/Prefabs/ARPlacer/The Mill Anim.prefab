@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3217899310365390524}
   - {fileID: 5056972544544119305}
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: {fileID: 0}
   objectInfo: {fileID: 0}
-  myName: Animated water mill
+  myName: "Animovan\xFD mlyn"
   myInfo: "Mlyn na mletie m\xFAky s vodn\xFDm pohonom."
 --- !u!1 &5056972544544119306
 GameObject:
@@ -91,6 +92,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.1, y: 0.049999997, z: 2.1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5056972543353512355}
   m_RootOrder: 1
@@ -114,10 +116,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -142,25 +146,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!95 &5056972543600424573
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8330261578236073930}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fc292b33450042c49bcfe3ad98a3bf03, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &5056972543895145710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -172,6 +158,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ERB_BENJAMIN_TP1_Textures_Gnriques
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
         type: 3}
@@ -190,6 +196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -202,16 +213,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
         type: 3}
@@ -228,32 +229,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.001
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8157eb1cab05b640a63a6a1cf0d9fef, type: 3}
---- !u!1 &8330261578236073930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3870546432924490532, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
-    type: 3}
-  m_PrefabInstance: {fileID: 5056972543895145710}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3217899310365390524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7675752125637048914, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
     type: 3}
   m_PrefabInstance: {fileID: 5056972543895145710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8330261578236073930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3870546432924490532, guid: b8157eb1cab05b640a63a6a1cf0d9fef,
+    type: 3}
+  m_PrefabInstance: {fileID: 5056972543895145710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5056972543600424573
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8330261578236073930}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc292b33450042c49bcfe3ad98a3bf03, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

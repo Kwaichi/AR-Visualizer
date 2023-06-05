@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0492, y: 0, z: -0.0569}
   m_LocalScale: {x: 0.10992959, y: 0.04999999, z: 0.12815921}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 937108100446182579}
   m_RootOrder: 1
@@ -51,10 +52,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2693142598611666408
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +111,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2125053566975272874}
   - {fileID: 5510473126431387594}
@@ -141,7 +146,7 @@ MonoBehaviour:
   objectName: {fileID: 0}
   objectInfo: {fileID: 0}
   myName: Vodnik
-  myInfo: "Kamenn\xE1 skult\xFAra."
+  myInfo: "Kamenn\xE1 skulpt\xFAra."
 --- !u!1001 &1943036644995203137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -149,6 +154,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937108100446182579}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -163,6 +188,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
         type: 3}
@@ -181,16 +211,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -204,21 +224,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
+    - target: {fileID: -7635826562936255635, guid: 8059900292c32e64297eab2b3743961b,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8059900292c32e64297eab2b3743961b,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.04
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: db84f6623c2015e4aaa9f72702f306c1, type: 2}
     - target: {fileID: 919132149155446097, guid: 8059900292c32e64297eab2b3743961b,
         type: 3}
       propertyPath: m_Name

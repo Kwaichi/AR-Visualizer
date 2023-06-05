@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8112163536438685863}
   - {fileID: 1535852462011585111}
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: {fileID: 0}
   objectInfo: {fileID: 0}
-  myName: "Lisov\u0148a oleja z Brumova"
+  myName: "Lisov\u0148a oleja"
   myInfo: "T\xE1to stavba je rekon\u0161trukciou olej\xE1rskej dielne z Brumova.
     Origin\xE1lny horizont\xE1lny kladovo p\xE1kov\xFD lis, ktor\xFD sa datuje do
     17. storo\u010Dia, bol v roku 1972 prenesen\xFD do m\xFAzea. K p\xF4vodn\xE9mu
@@ -104,6 +105,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0995, y: 0, z: 0.184}
   m_LocalScale: {x: 0.094877616, y: 0.049999986, z: 0.14347851}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2675114589660791699}
   m_RootOrder: 1
@@ -127,10 +129,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -155,6 +159,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &8583448284674168652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -162,6 +167,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2675114589660791699}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.10000001
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -176,6 +201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9127479
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
         type: 3}
@@ -194,16 +224,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9127479
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -217,21 +237,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
+    - target: {fileID: -7635826562936255635, guid: 921219e9c55098944a2e8c1d1bf85b67,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.10000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 921219e9c55098944a2e8c1d1bf85b67,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.10000001
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c75d084b525dcb4587c9c7252404352, type: 2}
     - target: {fileID: 919132149155446097, guid: 921219e9c55098944a2e8c1d1bf85b67,
         type: 3}
       propertyPath: m_Name

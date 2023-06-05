@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.049999997, z: 0.8}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4359255667283607069}
   m_RootOrder: 1
@@ -51,10 +52,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4050351149417894284
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +111,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 16190385864553214}
   - {fileID: 6502410345209505941}
@@ -141,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: {fileID: 0}
   objectInfo: {fileID: 0}
-  myName: Snake Statue
+  myName: "Hadie s\xFAsi\u0161ie"
   myInfo: "V\xFDstava \xE1zijskej kult\xFAry, Welt Museum, Viede\u0148"
 --- !u!1001 &8132678001888711912
 PrefabInstance:
@@ -154,6 +159,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Snake_Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
         type: 3}
@@ -172,6 +197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -187,16 +217,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -209,21 +229,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8134792424654267926, guid: 14bd04981cb6161409a54d13dcae0666,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14bd04981cb6161409a54d13dcae0666, type: 3}
